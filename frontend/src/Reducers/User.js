@@ -2,7 +2,7 @@ import { createReducer } from "@reduxjs/toolkit";
 const initialState = {};
 
 export const userReducer = createReducer(initialState, {
-  //initialState can be : loading : false , user : null , error : null
+  //initialState can be : loading : false , user : null , error : null , isAuthenticated : false
   LoginRequest: (state) => {
     state.loading = true;
   },
