@@ -49,7 +49,7 @@ const Post = ({
     await dispatch(likePost(postId));
 
     if (isAccount) {
-      dispatch(getMyPosts());
+      dispatch(getMyPosts()); //will refresh the posts after liking
     } else {
       dispatch(getFollowingPosts());
     }
