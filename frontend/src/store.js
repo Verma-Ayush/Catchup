@@ -12,7 +12,7 @@ const store = configureStore({
     user: userReducer, //user is a state having userReducer as reducer,and variables loading,user,error,isAuthenticated etc as defined in userReducer
     postOfFollowing: postOfFollowingReducer,
     allUsers: allUsersReducer,
-    like: likeReducer,
+    like: likeReducer, //this state contains (lot)unrelated vars too
     myPosts: myPostsReducer,
     userProfile: userProfileReducer,
     userPosts: userPostsReducer,
