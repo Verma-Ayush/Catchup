@@ -9,7 +9,7 @@ import { likeReducer, myPostsReducer, userPostsReducer } from "./Reducers/Post";
 
 const store = configureStore({
   reducer: {
-    user: userReducer,
+    user: userReducer, //user is a state having userReducer as reducer,and variables loading,user,error etc as defined in userReducer
     postOfFollowing: postOfFollowingReducer,
     allUsers: allUsersReducer,
     like: likeReducer,
